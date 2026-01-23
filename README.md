@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MEDXERN
 
-## Getting Started
+**Medical Exchange & Records Network**
 
-First, run the development server:
+MEDXERN is a modern health-tech platform designed to help individuals manage their entire medical history in one secure, accessible place. It transforms scattered reports, prescriptions, and test results into a clean, doctor-friendly timeline — enabling faster, safer, and more informed care.
+
+---
+
+## 🚀 Features
+
+- 📂 **Smart Medical Timeline**: Upload reports or prescriptions and get an organized, readable history.
+- 📸 **Scan & Upload**: Capture documents via camera or file upload.
+- 🆔 **QR/ID Access**: Share your medical history instantly with doctors using a secure QR code or ID.
+- 🧓 **Family Health Management** _(coming soon)_: Track and manage health data for parents or dependents.
+- 🏥 **Hospital & Doctor Integration** _(coming soon)_: Enable clinics to access and contribute to patient records.
+- 🆘 **Emergency Guidance** _(coming soon)_: Provide first-aid instructions and hospital navigation during emergencies.
+- 📡 **Device Connectivity** _(coming soon)_: Sync with home medical devices for real-time monitoring.
+- 🔐 **Privacy First**: All data is encrypted and stored securely. Users control access.
+
+---
+
+## 🧠 Why MEDXERN?
+
+Most digital health apps act like file cabinets. MEDXERN goes further — it interprets and structures your medical data so doctors can understand your condition at a glance. It’s built for real-world use: no hospital onboarding required, no tech expertise needed.
+
+---
+
+## 💻 Tech Stack
+
+- **Frontend**: Next.js, TypeScript, Tailwind CSS
+- **Backend**: Node.js, Express, MongoDB
+- **Authentication**: JWT, OAuth
+- **AI & OCR**: Tesseract.js, custom NLP pipelines
+- **Deployment**: Vercel / Docker (optional)
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js ≥ 18
+- Yarn or npm
+- MongoDB instance (local or cloud)
+
+### Installation
 
 ```bash
-npm run dev
-# or
+git clone https://github.com/Lanex69/MEDXERN.git
+cd medxern-web
+cp .env.example .env.local  # Add your API keys and secrets here
+yarn install
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
